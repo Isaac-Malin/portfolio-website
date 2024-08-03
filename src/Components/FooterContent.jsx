@@ -8,4 +8,4 @@ const FooterContent = () => {
   )
 }
 
-export default FooterContent
+export default FooterContent;

@@ -8,4 +8,4 @@ const ProjectContent = () => {
   )
 }
 
-export default ProjectContent
+export default ProjectContent;
