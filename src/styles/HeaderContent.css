@@ -1,0 +1,20 @@
+@import url('./colors/color_visuals.css');
+
+.header-container {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--secondary-darkCyan);
+}
+
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.list-item {
+  padding: .5rem;
+  margin-right: 1rem;
+}
+
