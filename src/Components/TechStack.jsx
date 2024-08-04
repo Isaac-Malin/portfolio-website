@@ -6,6 +6,8 @@ import html from '../images/html-5.png'
 import nodejs from '../images/nodejs.png'
 import sql from '../images/sql-server.png'
 import api from '../images/api.png'
+import git from '../images/social.png'
+import deployment from '../images/deployment.png'
 
 const Skills = () => {
   return (
@@ -39,6 +41,13 @@ const Skills = () => {
         <div className='skill'>
           <img src={api} alt="API" />
           <p>API</p>
+        </div>
+        <div className='skill'>
+          <img src={deployment} alt="Deployment" />
+          <p>Deployment</p>
+        </div><div className='skill'>
+          <img src={git} alt="GIT" />
+          <p>GIT</p>
         </div>
       </div>
     </div>

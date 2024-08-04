@@ -5,10 +5,12 @@
   padding: 1rem;
   align-items: center;
   justify-content: space-between;
+  background-color: var(--accent-color-green);
 }
 
 .name, .list {
   margin: 0 3%;
+  color: var(--font-color);
 }
 
 .list {
