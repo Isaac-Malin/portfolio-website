@@ -1,1 +1,36 @@
 @import url('./colors/color_visuals.css');
+
+.skills-container {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.skills-container h2 {
+  margin-bottom: 3%;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+
+}
+
+.skill {
+  margin: 20px;
+  text-align: center;
+  width: 150px; /* Example fixed width for containers */
+  height: 150px; /* Example fixed height for containers */
+  margin-bottom: 5%;
+}
+
+.skill p {
+  font-size: 1.3rem;
+}
+
+.skill img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 10px 5px 5px rgb(85, 115, 115, 0.7);
+}
