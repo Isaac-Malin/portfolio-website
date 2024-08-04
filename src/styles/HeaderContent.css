@@ -5,7 +5,10 @@
   padding: 1rem;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--secondary-darkCyan);
+}
+
+.name, .list {
+  margin: 0 3%;
 }
 
 .list {
@@ -14,7 +17,18 @@
 }
 
 .list-item {
-  padding: .5rem;
+  padding: .6rem;
   margin-right: 1rem;
+  width: 5vw;
+  color: var(--background-color-cream);
+  background-color: var(--accent-color-green);
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
+.list-item:hover {
+  background-color: var(--background-color-cream);
+  color: var(--accent-color-green);
+}

@@ -1,0 +1,34 @@
+.body-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  /* border: 1px solid black; */
+}
+
+.body-container #about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  /* padding: 2rem; */
+  margin-right: 10%;
+  line-height: 2.3;
+}
+
+.about-container  {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+
+.text-container {
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.my-picture {
+  border-radius: 10px;
+  height: 65vh;
+}
