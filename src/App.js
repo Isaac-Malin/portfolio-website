@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <HeaderContent />
       <BodyContent />
-      <TechStack />
       <ProjectContent />
-      {/* <FooterContent /> */}
+      <TechStack />
+      <FooterContent />
     </div>
   );
 }

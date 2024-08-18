@@ -11,15 +11,15 @@ import deployment from "../images/deployment.png";
 
 const Skills = () => {
   const skills = [
-    { src: react, alt: "react" },
-    { src: javaScript, alt: "javascript" },
-    { src: css, alt: "css" },
-    { src: html, alt: "html" },
-    { src: nodejs, alt: "nodejs" },
-    { src: sql, alt: "sql" },
-    { src: git, alt: "git" },
-    { src: deployment, alt: "deployment" },
-    { src: api, alt: "api" },
+    { src: react, alt: "React" },
+    { src: javaScript, alt: "JavaScript" },
+    { src: css, alt: "CSS" },
+    { src: html, alt: "HTML" },
+    { src: nodejs, alt: "Nodejs" },
+    { src: sql, alt: "Sql" },
+    { src: git, alt: "Git" },
+    { src: deployment, alt: "Deployment" },
+    { src: api, alt: "Api" },
   ];
 
   return (
